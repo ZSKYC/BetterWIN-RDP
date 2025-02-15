@@ -1,6 +1,6 @@
 # Upinel/BetterRDP Optimization Settings
 
-The `UpinelBetterRDP.reg` is a Windows Registry file that is designed to enhance your Remote Desktop Protocol (RDP) session by enabling 60FPS, GPU acceleration, and RemoteFx features. These optimizations aim to provide a smoother and more responsive remote desktop experience.
+该 `UpinelBetterRDP.reg` is a Windows Registry file that is designed to enhance your Remote Desktop Protocol (RDP) session by enabling 60FPS, GPU acceleration, 和 RemoteFx features. These optimizations aim to provide a smoother 和 more responsive remote desktop experience.
 
 ## Disclaimer
 
@@ -8,13 +8,13 @@ Modifying the Windows Registry can potentially cause system instability if not d
 
 ## Features Included
 
-- Allows both GPU acceleration and RemoteFx during RDP sessions.
-- Sets the capture framerate to 60 FPS for a smoother visual experience.
+- Allows both GPU acceleration 和 RemoteFx during RDP sessions.
+- Sets the capture framerate to 120 FPS for a smoother visual experience.
 - Reduces compression to improve image quality over RDP.
 - Adjusts system responsiveness for an enhanced user interface interaction.
 - Disables bandwidth throttling to reduce network-related slowdowns.
 - Allows for large MTU packets, which can improve network performance.
-- Optimizes the flow control for display and channel bandwidth (RemoteFX devices, including controllers).
+- Optimizes the flow control for display 和 channel bandwidth (RemoteFX devices, including controllers).
 - Removes artificial latency delay for more immediate interaction over RDP.
 - Option to disable WDDM drivers in favor of XDDM drivers for better performance on Nvidia graphics cards (commented out by default).
 
@@ -30,8 +30,8 @@ To apply these optimizations:
 
 ## Support
 
-- For Windows 8, Windows 10, and Windows Server 2012 or later.
-- It is advisable to perform these changes on machines where you have full permissions and control.
+- For Windows 8, Windows 10, 和 Windows Server 2012 or later.
+- It is advisable to perform these changes on machines where you have full permissions 和 control.
 - It is always better to test the settings on a non-production machine before applying them to a live environment.
 
 ## Contributions
